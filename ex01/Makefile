@@ -6,7 +6,7 @@
 #    By: kfujita <kfujita@student.42tokyo.jp>       +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/06/12 21:02:13 by kfujita           #+#    #+#              #
-#    Updated: 2023/06/21 20:18:16 by kfujita          ###   ########.fr        #
+#    Updated: 2023/06/21 21:25:37 by kfujita          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -15,6 +15,7 @@ NAME	:=	main
 SRCS	:= \
 	$(NAME).cpp\
 	Zombie.cpp\
+	zombieHorde.cpp\
 
 OBJS	:= $(SRCS:.cpp=.o)
 DEPS	:= $(OBJS:.o=.d)
